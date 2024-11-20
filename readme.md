@@ -21,7 +21,7 @@ To use AgroIntelApp, the following core requirements must be installed:
 
 1. **Download the Code**:
 
-   - Go to the [AgroIntelApp GitHub repository](https://github.com/your-username/AgroIntelApp) (replace with your actual GitHub repo link).
+   - Go to the [AgroIntelApp GitHub repository](https://github.com/omolola-A/AgroIntelApp) (replace with your actual GitHub repo link).
    - Download the repository as a ZIP file.
    - Extract the ZIP file to a folder on your PC.
 
@@ -60,10 +60,6 @@ The app requires the following Python libraries:
 
 We welcome contributions to improve the AgroIntelApp. If you have any suggestions, bug reports, or would like to contribute code, please fork the repository and create a pull request. Ensure that your changes are well-documented and tested.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Contact
 
-For any inquiries or issues, please contact the developer at [your-email@example.com](mailto:your-email@example.com).
+For any inquiries or issues, please contact the developer at [Omolola Adeojo](mailto:adefilaomolola@gmail.com).
