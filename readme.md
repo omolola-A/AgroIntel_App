@@ -1,50 +1,69 @@
-###AgroIntelApp: Crop Disease and Pest Detection
-##Overview
+# AgroIntelApp
 
-AgroIntelApp is a powerful tool designed to assist farmers in identifying and addressing crop diseases and pests. By simply uploading an image of the affected plant, the app leverages advanced machine learning techniques to accurately diagnose the issue and provide tailored solutions.
+AgroIntelApp is a powerful tool designed to help farmers and agricultural experts identify crop diseases and pests using image recognition technology. Users can easily capture an image of an affected crop, upload it to the app, and get detailed insights on the disease or pest, along with recommended solutions.
 
-##Installation
+## Features
 
-Clone the Repository:
+- **Disease/Pest Detection**: Detects various crop diseases and pests from uploaded images.
+- **Actionable Insights**: Provides recommended solutions to help mitigate the detected issue.
+- **User-Friendly Interface**: Simple and intuitive interface built with Streamlit for ease of use.
 
-###Bash
-git clone https://github.com/your_username/AgroIntelApp.git
-Use code with caution.
+## Requirements
 
-###Install Dependencies:
+To use AgroIntelApp, the following core requirements must be installed:
 
-Ensure you have Python and pip installed. Then, navigate to the project directory and run the following command:
+- **Python**: Version 3.6 or higher
+- **Streamlit**: Version 1.40.1
+- **TensorFlow**: Version 2.18.0
+- **TensorFlow Intel**: Version 2.18.0
 
-Bash
-pip install -r requirements.txt
-Use code with caution.
+## Installation Guide
 
-Run the App:
+1. **Download the Code**:
 
-Start the app using the following command:
+   - Go to the [AgroIntelApp GitHub repository](https://github.com/your-username/AgroIntelApp) (replace with your actual GitHub repo link).
+   - Download the repository as a ZIP file.
+   - Extract the ZIP file to a folder on your PC.
 
-Bash
-streamlit run app.py
-Use code with caution.
+2. **Setup**:
 
-This will launch the app in your default web browser.
+   - Inside the extracted folder, you will find a file named `setup.bat`.
+   - Double-click `setup.bat` to automatically install the required dependencies and set up the environment on your system.
+   - Wait for the process to complete. The setup will launch your default web browser once it's finished.
 
-How to Use
+3. **Run the App**:
+   - After the setup is complete, the app will open in your browser.
+   - Follow the on-screen instructions to upload an image of the affected crop and let the app detect the disease or pest.
 
-Upload Image:
+## How to Use
 
-Click on the "Upload Image" button.
-Select the image of the affected plant from your device.
-Get Diagnosis:
+1. **Capture an Image**: Use your device's camera to capture a clear image of the affected crop.
+2. **Upload the Image**: Once the app opens in your browser, you'll be prompted to upload the image.
+3. **Diagnosis**: The app will process the image and identify the disease or pest affecting the crop.
+4. **Solution**: The app will provide recommended solutions to help manage or treat the identified disease or pest.
 
-The app will process the image and display the detected disease or pest.
-You'll receive detailed information about the issue, including its symptoms and potential treatments.
-Requirements
+## Core Dependencies
 
-Python
-Streamlit
-TensorFlow
-TensorFlow-Intel
-Contributing
+The app requires the following Python libraries:
 
-We welcome contributions to improve AgroIntelApp. Feel free to fork the repository, make changes, and submit a pull request.
+- **Streamlit 1.40.1**: Web app framework used to build the user interface.
+- **TensorFlow 2.18.0**: Deep learning framework used for image recognition and classification.
+- **TensorFlow Intel 2.18.0**: Optimized version of TensorFlow for better performance on Intel hardware.
+
+## Troubleshooting
+
+- If the setup process fails, ensure that you have Python 3.6 or higher installed on your PC.
+- If you encounter issues with the setup script, try running it as an administrator.
+- If the app fails to launch, check the console for error messages and verify that the necessary dependencies have been installed.
+
+## Contributing
+
+We welcome contributions to improve the AgroIntelApp. If you have any suggestions, bug reports, or would like to contribute code, please fork the repository and create a pull request. Ensure that your changes are well-documented and tested.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any inquiries or issues, please contact the developer at [your-email@example.com](mailto:your-email@example.com).
