@@ -62,4 +62,4 @@ We welcome contributions to improve the AgroIntelApp. If you have any suggestion
 
 ## Contact
 
-For any inquiries or issues, please contact the developers at [Omolola Adeojo](mailto:adefilaomolola@gmail.com) & [Oyekola Oluwasegun](mailto: Pholoy01@gmail.com).
+For any inquiries or issues, please contact the developers at [Omolola Adeojo](mailto:adefilaomolola@gmail.com) & [Oyekola Oluwasegun](mailto:Pholoy01@gmail.com).
