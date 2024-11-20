@@ -29,7 +29,9 @@ To use AgroIntelApp, the following core requirements must be installed:
 
    - Inside the extracted folder, you will find a file named `setup.bat`.
    - Double-click `setup.bat` to automatically install the required dependencies and set up the environment on your system.
-   - Wait for the process to complete. The setup will launch your default web browser once it's finished.
+   - If your system warns you about running the file (via SmartScreen), trust the file and allow it to run. This is a normal occurrence during installation.
+   - The installation process is a one-time setup. After the initial setup, the installation files won't download again.
+   - Wait for the process to complete. The setup will launch your default web browser once finished.
 
 3. **Run the App**:
    - After the setup is complete, the app will open in your browser.
@@ -52,9 +54,28 @@ The app requires the following Python libraries:
 
 ## Troubleshooting
 
-- If the setup process fails, ensure that you have Python 3.6 or higher installed on your PC.
-- If you encounter issues with the setup script, try running it as an administrator.
-- If the app fails to launch, check the console for error messages and verify that the necessary dependencies have been installed.
+- **TensorFlow Installation Issues**:  
+  TensorFlow might fail to install on systems with long path limitations. To resolve this:
+
+  1. Press `Win + R`, type `regedit`, and hit Enter to open the Registry Editor.
+  2. Navigate to:
+     ```
+     Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem
+     ```
+  3. Double-click on the `LongPathsEnabled` key.
+  4. Set the value to `1` and click OK.
+  5. Restart your system for the changes to take effect.
+  6. Rerun the `setup.bat` file to complete the installation.
+
+- **SmartScreen Warnings**:  
+  If SmartScreen warns you while running the `setup.bat` file, this is expected and normal. Trust the file and proceed with the installation.
+
+- **Error Reporting**:  
+  If you encounter issues during installation or while running the app, send an email to the contacts below with details of the error:
+  - **Omolola Adeojo**: [adefilaomolola@gmail.com](mailto:adefilaomolola@gmail.com)
+  - **Oyekola Oluwasegun**: [Pholoy01@gmail.com](mailto:Pholoy01@gmail.com)
+
+---
 
 ## Contributing
 
@@ -62,4 +83,7 @@ We welcome contributions to improve the AgroIntelApp. If you have any suggestion
 
 ## Contact
 
-For any inquiries or issues, please contact the developers at [Omolola Adeojo](mailto:adefilaomolola@gmail.com) & [Oyekola Oluwasegun](mailto:Pholoy01@gmail.com).
+For any inquiries or issues, please contact the developers:
+
+- **Omolola Adeojo**: [adefilaomolola@gmail.com](mailto:adefilaomolola@gmail.com)
+- **Oyekola Oluwasegun**: [Pholoy01@gmail.com](mailto:Pholoy01@gmail.com)
