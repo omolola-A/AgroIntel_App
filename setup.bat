@@ -34,6 +34,20 @@ if exist requirements.txt (
     exit /b 1
 )
 
+:: Check and install TensorFlow if not installed
+echo Verifying TensorFlow installation...
+python -c "import tensorflow" >nul 2>&1
+if %errorlevel% neq 0 (
+    echo TensorFlow is not installed. Installing TensorFlow...
+    python -m pip install --upgrade tensorflow
+    if %errorlevel% neq 0 (
+        echo Failed to install TensorFlow. Exiting setup.
+        exit /b 1
+    )
+) else (
+    echo TensorFlow is already installed.
+)
+
 :: Ensure Streamlit is accessible
 echo Verifying Streamlit installation...
 python -m streamlit --version >nul 2>&1
@@ -44,5 +58,15 @@ if %errorlevel% neq 0 (
 
 :: Run the Streamlit app
 echo Starting the Streamlit app...
-python -m streamlit run app.py
-pause
+start cmd /k "python -m streamlit run app.py"
+
+:: Wait for user input to stop the server
+echo The server is running. Press any key to stop...
+pause >nul
+
+:: Stop the Streamlit server gracefully
+echo Stopping the Streamlit server...
+taskkill /f /im python.exe >nul 2>&1
+
+echo Server stopped. Exiting...
+exit /b
