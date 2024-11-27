@@ -88,4 +88,4 @@ For any inquiries or issues, please contact the developers:
 - **Omolola Adeojo**: [adefilaomolola@gmail.com](mailto:adefilaomolola@gmail.com)
 - **Oyekola Oluwasegun**: [Pholoy01@gmail.com](mailto:Pholoy01@gmail.com)
 
-## Quick Access: Go to [AgroIntel_App](https://agrointelapp-42b9wmhrekiuzmnzadkzor.streamlit.app/).
+## For Quick Access to AgroIntel: Go to [AgroIntel_App](https://agrointelapp-42b9wmhrekiuzmnzadkzor.streamlit.app/).
