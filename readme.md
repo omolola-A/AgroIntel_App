@@ -21,7 +21,7 @@ To use AgroIntelApp, the following core requirements must be installed:
 
 1. **Download the Code**:
 
-   - Go to the [AgroIntelApp GitHub repository](https://github.com/omolola-A/AgroIntelApp).
+   - Go to the [AgroIntel_App GitHub repository](https://github.com/omolola-A/AgroIntel_App/tree/main).
    - Download the repository as a ZIP file.
    - Extract the ZIP file to a folder on your PC.
 
