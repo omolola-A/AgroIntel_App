@@ -1,4 +1,4 @@
-# AgroIntelApp
+# AgroIntel_App
 
 AgroIntelApp is a powerful tool designed to help farmers and agricultural experts identify crop diseases and pests using image recognition technology. Users can easily capture an image of an affected crop, upload it to the app, and get detailed insights on the disease or pest, along with recommended solutions.
 
@@ -87,3 +87,5 @@ For any inquiries or issues, please contact the developers:
 
 - **Omolola Adeojo**: [adefilaomolola@gmail.com](mailto:adefilaomolola@gmail.com)
 - **Oyekola Oluwasegun**: [Pholoy01@gmail.com](mailto:Pholoy01@gmail.com)
+
+## Quick Access: Go to the [AgroIntel_App](https://agrointelapp-42b9wmhrekiuzmnzadkzor.streamlit.app/).
