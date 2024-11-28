@@ -5,7 +5,7 @@ import numpy as np
 import json
 
 # Load the model
-model = load_model("cnn_model copy.keras")
+model = load_model("cnn_model.keras")
 
 # Load class labels
 with open("class_indices.json", "r") as f:
