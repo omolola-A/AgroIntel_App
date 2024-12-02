@@ -79,13 +79,13 @@ The app requires the following Python libraries:
 
 ## Contributing
 
-We welcome contributions to improve the AgroIntelApp. If you have any suggestions, bug reports, or would like to contribute code, please fork the repository and create a pull request. Ensure that your changes are well-documented and tested.
+We welcome contributions to improve the AgroIntelApp. If you have suggestions, or bug reports, or would like to contribute code, please fork the repository and create a pull request. Ensure that your changes are well-documented and tested.
 
 ## Contact
 
-For any inquiries or issues, please contact the developers:
+For any inquiries or issues, don't hesitate to get in touch with the developers:
 
 - **Omolola Adeojo**: [adefilaomolola@gmail.com](mailto:adefilaomolola@gmail.com)
 - **Oyekola Oluwasegun**: [Pholoy01@gmail.com](mailto:Pholoy01@gmail.com)
 
-## For Quick Access to AgroIntel: Go to [AgroIntel_App](https://agrointelapp-42b9wmhrekiuzmnzadkzor.streamlit.app/).
+## For Quick Access to AgroIntel: Go to [AgroIntel_App](https://agrointelapp.streamlit.app/).
