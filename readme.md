@@ -73,7 +73,7 @@ The app requires the following Python libraries:
 - **Error Reporting**:  
   If you encounter issues during installation or while running the app, send an email to the contacts below with details of the error:
   - **Omolola Adeojo**: [adefilaomolola@gmail.com](mailto:adefilaomolola@gmail.com)
-  - **Oyekola Oluwasegun**: [Pholoy01@gmail.com](mailto:Pholoy01@gmail.com)
+  - **Oyekola Oluwasegun**: [Poyekol@gmail.com](mailto:poyekol@gmail.com)
 
 ---
 
@@ -86,6 +86,6 @@ We welcome contributions to improve the AgroIntelApp. If you have suggestions, o
 For any inquiries or issues, don't hesitate to get in touch with the developers:
 
 - **Omolola Adeojo**: [adefilaomolola@gmail.com](mailto:adefilaomolola@gmail.com)
-- **Oyekola Oluwasegun**: [Pholoy01@gmail.com](mailto:Pholoy01@gmail.com)
+- **Oyekola Oluwasegun**: [Poyekol@gmail.com](mailto:poyekol@gmail.com)
 
 ## For Quick Access to AgroIntel: Go to [AgroIntel_App](https://agrointelapp.streamlit.app/).
